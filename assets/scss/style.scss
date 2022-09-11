@@ -20,15 +20,15 @@ Version      : 1.0
 @import 'components/index';
 @import 'layout/index';
 
-@include xl {
-  .container {
-    max-width: 1320px;
-  }
+// @include xl {
+//   .container {
+//     max-width: 1320px;
+//   }
 
-  .gx-30 {
-    --bs-gutter-x: 30px;
-  }
-}
+//   .gx-30 {
+//     --bs-gutter-x: 30px;
+//   }
+// }
 
 @import 'core/index';
 @import 'pages/index';

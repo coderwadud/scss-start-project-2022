@@ -87,38 +87,3 @@ button {
     scroll-behavior: auto !important;
   }
 }
-
-.fill-current {
-  fill: currentColor;
-}
-
-.scrollToTop {
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
-  text-align: center;
-  color: $yellow;
-  font-size: 25px;
-  background: transparent;
-  position: fixed;
-  right: 20px;
-  bottom: 50px;
-  display: none;
-  z-index: 99999;
-  border-radius: 50%;
-
-  @include sm {
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-  }
-
-  &:hover {
-    color: $yellow;
-  }
-}
-
-
-.no-scroll-y {
-  overflow-y: hidden;
-}
